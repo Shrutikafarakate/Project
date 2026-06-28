@@ -21,5 +21,5 @@ The model is trained on the HAM10000 dataset, which contains over 10,000 labeled
 ## 📬 Contact
 
 If you have any questions or suggestions, feel free to reach out to me at:  
-**shrutikafarakate9982@gmail.com.com**
+**shrutikafarakate9982@gmail.com**
 ![f1](https://github.com/user-attachments/assets/de5f3ee8-9a4f-45ce-bf98-4e2f896e4197)
