@@ -1,0 +1,16 @@
+# Web Framework
+django==5.0.4
+
+# Deep Learning and Image Processing
+tensorflow==2.15.0
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.0
+pillow==10.3.0
+
+# PDF Report Generation
+reportlab==4.2.2
+
+# Optional (for Jupyter Notebook model training)
+jupyter==1.0.0
+scikit-learn==1.5.0

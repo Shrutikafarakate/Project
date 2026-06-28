@@ -1,0 +1,341 @@
+/* === Global Styles === */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url("/static/images/pr.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #f2f4f8;
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(4px);
+}
+
+/* Headings */
+h1, h2 {
+    color: #7dd3fc;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* === Header === */
+header {
+    text-align: center;
+    padding: 25px 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* === Navbar === */
+nav {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 12px 0;
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+    color: #00c6ff;
+    transform: translateY(-3px);
+}
+
+/* === Form Styling === */
+form {
+    font-family: 'Poppins', sans-serif;
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 35px 30px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    color: #e9eef5;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+form:hover {
+    transform: translateY(-4px);
+}
+
+form label {
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    background: linear-gradient(90deg, #007bff, #00d4ff);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: linear-gradient(90deg, #00a2ff, #00f0b5);
+    box-shadow: 0 4px 15px rgba(0, 217, 255, 0.4);
+    transform: translateY(-2px);
+}
+
+/* === Input Fields === */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.9);
+    color: #222;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+/* === General Button === */
+button {
+    background: linear-gradient(90deg, #1f8ef1, #5edfff);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #00d4ff, #1aff8c);
+    transform: translateY(-3px);
+}
+
+/* === Message Boxes === */
+.success-message, .error-message {
+    padding: 14px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.success-message {
+    background: rgba(40, 167, 69, 0.9);
+}
+
+.error-message {
+    background: rgba(220, 53, 69, 0.9);
+}
+
+/* === Image Upload Section === */
+#image-upload {
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 650px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(8px);
+}
+
+#image-upload input[type="file"] {
+    display: block;
+    margin: 10px auto;
+    font-size: 1rem;
+}
+
+#image-upload button {
+    display: block;
+    margin: 25px auto 0;
+    width: 220px;
+}
+
+/* === FAQ Section === */
+.faq-section {
+    padding: 2rem 1rem;
+    margin: 40px 0;
+    color: #e8f1f2;
+}
+
+.faq-box {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(6px);
+    padding: 20px 25px;
+    border-radius: 12px;
+    margin-bottom: 18px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.faq-box:hover {
+    transform: translateY(-4px);
+}
+
+.faq-box h2 {
+    font-size: 1.4rem;
+    color: #7cd8ff;
+    margin-bottom: 12px;
+}
+
+.faq-box p, .faq-box ul {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #d9e7ea;
+}
+
+.faq-section a {
+    color: #00d4ff;
+    text-decoration: none;
+}
+
+.faq-section a:hover {
+    color: #00ffaa;
+}
+
+/* === Info Box === */
+.info-box {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 25px 30px;
+    border-radius: 16px;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(6px);
+    color: #eaf3f6;
+}
+
+/* === Grey Box === */
+.grey-box {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 25px 30px;
+    max-width: 700px;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    color: #f0f3f5;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* === Recommendation Message === */
+.recommendation-message h2 {
+    text-align: center;
+    color: #00eaff;
+    font-weight: 600;
+}
+
+.recommendation-message pre {
+    white-space: pre-wrap;
+    line-height: 1.6;
+    color: #eaf3f6;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* === Scrollbar === */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #00baff;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #00ffcc;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+    form, #image-upload, .grey-box, .info-box {
+        padding: 20px;
+        margin: 15px;
+    }
+    .navbar-nav {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+/* === Carousel Images === */
+/* Uniform size for all carousel images */
+.carousel-img {
+    width: 350px;          /* fixed width */
+    height: 350px;         /* fixed height */
+    object-fit: cover;     /* fills box, crops excess */
+    border-radius: 10px;   /* rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover zoom effect */
+.carousel-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .carousel-img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+/* Spacing inside carousel items */
+.carousel-item > .d-flex {
+    gap: 20px;
+    flex-wrap: wrap;
+}
